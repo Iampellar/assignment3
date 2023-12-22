@@ -1,0 +1,580 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.line1{
+    width: 84.875rem;
+    height: 0.125rem;
+    background: #E0E6EA;
+    flex-shrink: 0;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+.container{
+    width:1440px ;
+    height: 1170px;
+    /* border: 1px solid transparent; */
+    /* margin: 0 auto; */
+    margin-top: 4rem;
+}
+
+.wrapper {
+    width: 90rem;
+    height: 73.125rem;
+    border: 1px solid transparent;
+    padding: 1.5rem 2rem;
+    background: #F5F8FA;
+}
+
+.wp-pusher {
+    width: 12.5rem;
+    height: 2.4375rem;
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+    flex-shrink: 0;
+    display: inline;
+    margin-bottom: 2rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.50rem;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: Lato;
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00063rem;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    width: 84.875rem;
+    height: 0.125rem;
+    background: #E0E6EA;
+    flex-shrink: 0;
+    margin-bottom: 5rem;
+}
+
+a button {
+    width: 5.6875rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00063rem;
+    border-radius: 0.375rem;
+    border: 2px solid #646E7A;
+
+}
+
+.card p {
+    width: 10.0625rem;
+    height: 3.375rem;
+    flex-shrink: 0;
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-wrapper {
+    width: 55.75rem;
+    height: 49.6875rem;
+    border-radius: 0.375rem;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+    background: #FFF;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+
+.card {
+    width: 75%;
+    padding: 0.3rem;
+}
+
+.card-info {
+    /* width: 30%; */
+    width: 19.5rem;
+    height: 49.6875rem;
+    border-radius: 0rem 0.375rem 0.375rem 0rem;
+    background: #1179BF;
+    flex-shrink: 0;
+    padding: 2rem;
+    padding-top:3rem ;
+    display: flex;
+    justify-content: center;
+   
+}
+.footer-center{
+    margin: 0 auto;
+    margin-left: 3rem;
+}
+
+
+.card h2 {
+    width: 10.0625rem;
+    height: 3.375rem;
+    flex-shrink: 0;
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    margin-bottom: -1.3rem;
+}
+
+.logo {
+    border: 2px solid #548BC5;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo-text {
+
+    color: #548BC5;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00888rem;
+
+
+}
+
+.basic-info {
+    display: flex;
+    align-items: last baseline;
+    gap: 15px;
+    margin-bottom: 0.5rem;
+}
+.basic{
+    margin-left: 4rem;
+}
+
+
+.line {
+    width: 36.25rem;
+    height: 0.125rem;
+    background: #F5F7FA;
+    flex-shrink: 0;
+    margin-top: 2.56rem;
+    margin-bottom: 2.56rem;
+}
+
+.text h3 {
+    width: 13.75rem;
+    height: 2rem;
+    flex-shrink: 0;
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01rem;
+}
+
+label {
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 11.6875rem;
+    display: block;
+    margin-bottom: 0.55rem;
+    
+}
+
+input {
+    border-radius: 0.25rem;
+    background: #EDEFF2;
+    padding: 0.56rem;
+    width: 14.125rem;
+    height: 2.25rem;
+    flex-shrink: 0;
+    border: none;
+
+    /* margin-top: 0.44rem; */
+}
+
+input::placeholder {
+
+    color: #646E7A;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.formstyle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.94rem;
+    gap: 2rem;
+}
+input.mail{
+width: 23.125rem;
+height: 2.25rem;
+flex-shrink: 0;
+border-radius: 0.3125rem;
+background: #EDEFF2;
+}
+
+
+
+/* Credit Card css */
+
+.card-details input {
+width: 30%;
+}
+
+.credit-card {
+    width: 11.6875rem;
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 11.6875rem;
+    
+
+}
+
+.card-details {
+display: flex;
+align-items: center;
+display: flex;
+justify-content: space-between;
+width: 30.1875rem;
+/* height: 2.25rem; */
+
+border-radius: 0.25rem;
+background: #EDEFF2;
+}
+
+.card-details .card-number {
+width: 270px;
+border: none;
+}
+
+.card-details .card-date {
+width: 90px;
+border: transparent;
+}
+
+.card-details .card-cvc {
+width: 78px;
+border: transparent;
+}
+
+
+.btn{
+    width: 30.1875rem;
+    height: 3.25rem;
+    border-radius: 0.3125rem;
+    background: #038E7D;
+    flex-shrink: 0;
+    border: none;
+    margin-bottom: 1.5rem;
+    
+    margin-left: 3.5rem;
+
+}
+.btn a{
+    width: 30.1875rem;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.02475rem;
+    text-align: center;
+    text-decoration: none;
+}
+.footer p{
+    width: 18.9375rem;
+    height: 1rem;
+    flex-shrink: 0;
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.00063rem;
+    margin-bottom: 2.13rem;
+
+
+}
+.footer p span{
+    font-weight: 700;
+}
+.footer-img{
+    width: 5.75rem;
+    height: 1.25631rem;
+    flex-shrink: 0;
+    margin-left: 15rem;
+
+}
+.footer{
+    display: flex;
+    gap: 0.62rem;
+    justify-content: center;
+    text-align: center;
+    margin-left: 8rem;
+}
+
+/* SECOND PART */
+
+.title-info h2{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00063rem;
+}
+
+.year-title{
+    margin-bottom:1.5rem ;
+    position: relative;
+}
+span sup{
+    color: #FFF;
+font-family: Lato;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+position: absolute;
+margin-top: 13px;
+
+ 
+    
+}
+ span h2{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.00094rem;
+    display: inline;
+    margin-left: 16px;
+
+}
+
+span sub{
+    color: #FFF;
+font-family: Lato;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.00094rem;
+} 
+
+.renew p{
+    width: 14.3125rem;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: -0.0005rem;
+    margin-bottom:2.25rem ;
+}
+
+.check-wrapper p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: -0.0005rem;
+}
+.check-wrapper p >span{
+    color: #FFF;
+font-family: Lato;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem;
+letter-spacing: -0.0005rem;
+
+
+}
+.check-wrapper{
+    display: flex;
+    gap: 10px;
+    align-items:flex-end ;
+}
+.need p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.0005rem;
+
+}
+.need p>span{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.0005rem;
+
+}
+p.switch{
+    color: #FFF;
+font-family: Lato;
+font-size: 1rem;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.0005rem;
+}
+.short-line{
+    width: 14rem;
+    height: 0.125rem;
+    opacity: 0.2005;
+    background: #FFF;
+    flex-shrink: 0;
+    margin-bottom: 2.56rem;
+}
+.check{
+    margin-bottom: 2.25rem;
+}
+.need{
+    margin-bottom: 1.5rem;
+
+}
+.need p{
+    line-height: 1.6;
+    
+}
+.FTP p{
+    width: 14.1875rem;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1.125rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: -0.00056rem;
+    margin-bottom: 1.5rem;
+
+}
+.FTP p span{
+    font-weight: 700;
+
+}
+.image{
+    background: url("./public/images/bitmap.png"), lightgray 0px 0px / 100% 100% no-repeat;
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+
+}
+
+.footer-image{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer-image p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.0005rem;
+
+}
+.footer-text{
+    width: 54.1875rem;
+    color: #636B6F;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.terms{
+color: #31708F;
+font-family: Lato;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.footer-l{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
